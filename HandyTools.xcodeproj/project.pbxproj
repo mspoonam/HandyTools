@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB747AEC201239D900278F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB747AEB201239D900278F56 /* AppDelegate.swift */; };
+		AB747AEE201239D900278F56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB747AED201239D900278F56 /* ViewController.swift */; };
+		AB747AF1201239D900278F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB747AEF201239D900278F56 /* Main.storyboard */; };
+		AB747AF3201239D900278F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB747AF2201239D900278F56 /* Assets.xcassets */; };
+		AB747AF6201239D900278F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB747AF4201239D900278F56 /* LaunchScreen.storyboard */; };
+		AB747B01201239D900278F56 /* HandyToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB747B00201239D900278F56 /* HandyToolsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB747AFD201239D900278F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB747AE0201239D900278F56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB747AE7201239D900278F56;
+			remoteInfo = HandyTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB747AE8201239D900278F56 /* HandyTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandyTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB747AEB201239D900278F56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB747AED201239D900278F56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB747AF0201239D900278F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB747AF2201239D900278F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB747AF5201239D900278F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB747AF7201239D900278F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB747AFC201239D900278F56 /* HandyToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandyToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB747B00201239D900278F56 /* HandyToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyToolsUITests.swift; sourceTree = "<group>"; };
+		AB747B02201239D900278F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB747AE5201239D900278F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB747AF9201239D900278F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB747ADF201239D900278F56 = {
+			isa = PBXGroup;
+			children = (
+				AB747AEA201239D900278F56 /* HandyTools */,
+				AB747AFF201239D900278F56 /* HandyToolsUITests */,
+				AB747AE9201239D900278F56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB747AE9201239D900278F56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB747AE8201239D900278F56 /* HandyTools.app */,
+				AB747AFC201239D900278F56 /* HandyToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB747AEA201239D900278F56 /* HandyTools */ = {
+			isa = PBXGroup;
+			children = (
+				AB747AEB201239D900278F56 /* AppDelegate.swift */,
+				AB747AED201239D900278F56 /* ViewController.swift */,
+				AB747AEF201239D900278F56 /* Main.storyboard */,
+				AB747AF2201239D900278F56 /* Assets.xcassets */,
+				AB747AF4201239D900278F56 /* LaunchScreen.storyboard */,
+				AB747AF7201239D900278F56 /* Info.plist */,
+			);
+			path = HandyTools;
+			sourceTree = "<group>";
+		};
+		AB747AFF201239D900278F56 /* HandyToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB747B00201239D900278F56 /* HandyToolsUITests.swift */,
+				AB747B02201239D900278F56 /* Info.plist */,
+			);
+			path = HandyToolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB747AE7201239D900278F56 /* HandyTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB747B05201239D900278F56 /* Build configuration list for PBXNativeTarget "HandyTools" */;
+			buildPhases = (
+				AB747AE4201239D900278F56 /* Sources */,
+				AB747AE5201239D900278F56 /* Frameworks */,
+				AB747AE6201239D900278F56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandyTools;
+			productName = HandyTools;
+			productReference = AB747AE8201239D900278F56 /* HandyTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB747AFB201239D900278F56 /* HandyToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB747B08201239D900278F56 /* Build configuration list for PBXNativeTarget "HandyToolsUITests" */;
+			buildPhases = (
+				AB747AF8201239D900278F56 /* Sources */,
+				AB747AF9201239D900278F56 /* Frameworks */,
+				AB747AFA201239D900278F56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB747AFE201239D900278F56 /* PBXTargetDependency */,
+			);
+			name = HandyToolsUITests;
+			productName = HandyToolsUITests;
+			productReference = AB747AFC201239D900278F56 /* HandyToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB747AE0201239D900278F56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					AB747AE7201239D900278F56 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AB747AFB201239D900278F56 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB747AE7201239D900278F56;
+					};
+				};
+			};
+			buildConfigurationList = AB747AE3201239D900278F56 /* Build configuration list for PBXProject "HandyTools" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB747ADF201239D900278F56;
+			productRefGroup = AB747AE9201239D900278F56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB747AE7201239D900278F56 /* HandyTools */,
+				AB747AFB201239D900278F56 /* HandyToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB747AE6201239D900278F56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB747AF6201239D900278F56 /* LaunchScreen.storyboard in Resources */,
+				AB747AF3201239D900278F56 /* Assets.xcassets in Resources */,
+				AB747AF1201239D900278F56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB747AFA201239D900278F56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB747AE4201239D900278F56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB747AEE201239D900278F56 /* ViewController.swift in Sources */,
+				AB747AEC201239D900278F56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB747AF8201239D900278F56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB747B01201239D900278F56 /* HandyToolsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB747AFE201239D900278F56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB747AE7201239D900278F56 /* HandyTools */;
+			targetProxy = AB747AFD201239D900278F56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB747AEF201239D900278F56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB747AF0201239D900278F56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB747AF4201239D900278F56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB747AF5201239D900278F56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB747B03201239D900278F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB747B04201239D900278F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB747B06201239D900278F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PRAEB93T;
+				INFOPLIST_FILE = HandyTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poonamp.handytool.HandyTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB747B07201239D900278F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PRAEB93T;
+				INFOPLIST_FILE = HandyTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poonamp.handytool.HandyTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB747B09201239D900278F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PRAEB93T;
+				INFOPLIST_FILE = HandyToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poonamp.handytool.HandyToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandyTools;
+			};
+			name = Debug;
+		};
+		AB747B0A201239D900278F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47PRAEB93T;
+				INFOPLIST_FILE = HandyToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poonamp.handytool.HandyToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandyTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB747AE3201239D900278F56 /* Build configuration list for PBXProject "HandyTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB747B03201239D900278F56 /* Debug */,
+				AB747B04201239D900278F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB747B05201239D900278F56 /* Build configuration list for PBXNativeTarget "HandyTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB747B06201239D900278F56 /* Debug */,
+				AB747B07201239D900278F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB747B08201239D900278F56 /* Build configuration list for PBXNativeTarget "HandyToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB747B09201239D900278F56 /* Debug */,
+				AB747B0A201239D900278F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB747AE0201239D900278F56 /* Project object */;
+}
