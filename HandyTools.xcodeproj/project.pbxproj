@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		AB747AEC201239D900278F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB747AEB201239D900278F56 /* AppDelegate.swift */; };
-		AB747AEE201239D900278F56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB747AED201239D900278F56 /* ViewController.swift */; };
 		AB747AF1201239D900278F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB747AEF201239D900278F56 /* Main.storyboard */; };
 		AB747AF3201239D900278F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB747AF2201239D900278F56 /* Assets.xcassets */; };
 		AB747AF6201239D900278F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB747AF4201239D900278F56 /* LaunchScreen.storyboard */; };
 		AB747B01201239D900278F56 /* HandyToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB747B00201239D900278F56 /* HandyToolsUITests.swift */; };
+		AB747B0C20123E6200278F56 /* HandyButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB747B0B20123E6200278F56 /* HandyButtons.swift */; };
+		AB747B2120159E9200278F56 /* HTButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB747B2020159E9200278F56 /* HTButtons.swift */; };
+		AB747B252015B24500278F56 /* HBTypeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB747B242015B24500278F56 /* HBTypeFirst.swift */; };
+		AB747B272015B28000278F56 /* HBTypeFirst.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB747B262015B28000278F56 /* HBTypeFirst.xib */; };
+		AB747B292015B82400278F56 /* HBTypeSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB747B282015B82400278F56 /* HBTypeSecond.swift */; };
+		AB747B2B2015B84800278F56 /* HBTypeThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB747B2A2015B84800278F56 /* HBTypeThird.swift */; };
+		AB747B2D2015B87B00278F56 /* HBTypeSecond.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB747B2C2015B87B00278F56 /* HBTypeSecond.xib */; };
+		AB747B2F2015BBB000278F56 /* HBTypeThird.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB747B2E2015BBB000278F56 /* HBTypeThird.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +35,6 @@
 /* Begin PBXFileReference section */
 		AB747AE8201239D900278F56 /* HandyTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandyTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB747AEB201239D900278F56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB747AED201239D900278F56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB747AF0201239D900278F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB747AF2201239D900278F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB747AF5201239D900278F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +42,14 @@
 		AB747AFC201239D900278F56 /* HandyToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandyToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB747B00201239D900278F56 /* HandyToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyToolsUITests.swift; sourceTree = "<group>"; };
 		AB747B02201239D900278F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB747B0B20123E6200278F56 /* HandyButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyButtons.swift; sourceTree = "<group>"; };
+		AB747B2020159E9200278F56 /* HTButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTButtons.swift; sourceTree = "<group>"; };
+		AB747B242015B24500278F56 /* HBTypeFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBTypeFirst.swift; sourceTree = "<group>"; };
+		AB747B262015B28000278F56 /* HBTypeFirst.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBTypeFirst.xib; sourceTree = "<group>"; };
+		AB747B282015B82400278F56 /* HBTypeSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBTypeSecond.swift; sourceTree = "<group>"; };
+		AB747B2A2015B84800278F56 /* HBTypeThird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBTypeThird.swift; sourceTree = "<group>"; };
+		AB747B2C2015B87B00278F56 /* HBTypeSecond.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBTypeSecond.xib; sourceTree = "<group>"; };
+		AB747B2E2015BBB000278F56 /* HBTypeThird.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBTypeThird.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB64A0A12015DE1D0021FDF2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB747B0B20123E6200278F56 /* HandyButtons.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AB64A0A22015DE580021FDF2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AB747B2020159E9200278F56 /* HTButtons.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		AB747ADF201239D900278F56 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +107,10 @@
 		AB747AEA201239D900278F56 /* HandyTools */ = {
 			isa = PBXGroup;
 			children = (
+				AB64A0A22015DE580021FDF2 /* Common */,
+				AB747B0E2012412D00278F56 /* Views */,
+				AB64A0A12015DE1D0021FDF2 /* ViewControllers */,
 				AB747AEB201239D900278F56 /* AppDelegate.swift */,
-				AB747AED201239D900278F56 /* ViewController.swift */,
 				AB747AEF201239D900278F56 /* Main.storyboard */,
 				AB747AF2201239D900278F56 /* Assets.xcassets */,
 				AB747AF4201239D900278F56 /* LaunchScreen.storyboard */,
@@ -94,6 +126,19 @@
 				AB747B02201239D900278F56 /* Info.plist */,
 			);
 			path = HandyToolsUITests;
+			sourceTree = "<group>";
+		};
+		AB747B0E2012412D00278F56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB747B262015B28000278F56 /* HBTypeFirst.xib */,
+				AB747B242015B24500278F56 /* HBTypeFirst.swift */,
+				AB747B2C2015B87B00278F56 /* HBTypeSecond.xib */,
+				AB747B282015B82400278F56 /* HBTypeSecond.swift */,
+				AB747B2E2015BBB000278F56 /* HBTypeThird.xib */,
+				AB747B2A2015B84800278F56 /* HBTypeThird.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,8 +223,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB747B2D2015B87B00278F56 /* HBTypeSecond.xib in Resources */,
 				AB747AF6201239D900278F56 /* LaunchScreen.storyboard in Resources */,
 				AB747AF3201239D900278F56 /* Assets.xcassets in Resources */,
+				AB747B2F2015BBB000278F56 /* HBTypeThird.xib in Resources */,
+				AB747B272015B28000278F56 /* HBTypeFirst.xib in Resources */,
 				AB747AF1201239D900278F56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,8 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB747AEE201239D900278F56 /* ViewController.swift in Sources */,
+				AB747B2120159E9200278F56 /* HTButtons.swift in Sources */,
+				AB747B292015B82400278F56 /* HBTypeSecond.swift in Sources */,
+				AB747B0C20123E6200278F56 /* HandyButtons.swift in Sources */,
 				AB747AEC201239D900278F56 /* AppDelegate.swift in Sources */,
+				AB747B252015B24500278F56 /* HBTypeFirst.swift in Sources */,
+				AB747B2B2015B84800278F56 /* HBTypeThird.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
